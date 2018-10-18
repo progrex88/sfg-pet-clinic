@@ -1,4 +1,4 @@
-package pl.com.progrrex88.sfgpetclinic.model;
+package pl.com.progrex88.sfgpetclinic.model;
 
 import lombok.Getter;
 import lombok.Setter;

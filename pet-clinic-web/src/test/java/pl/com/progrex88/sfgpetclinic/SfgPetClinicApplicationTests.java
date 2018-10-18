@@ -1,4 +1,4 @@
-package pl.com.progrrex88.sfgpetclinic;
+package pl.com.progrex88.sfgpetclinic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
