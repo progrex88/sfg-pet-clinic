@@ -1,4 +1,4 @@
-package services;
+package pl.com.progrex88.sfgpetclinic.services;
 
 import java.util.Set;
 
