@@ -3,7 +3,7 @@ package pl.com.progrex88.sfgpetclinic.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@RequestMapping("/owners")
+@RequestMapping("/owenrs")
 @Controller
 public class OwnerController {
 
