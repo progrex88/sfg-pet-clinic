@@ -6,8 +6,6 @@ import pl.com.progrex88.sfgpetclinic.model.Owner;
 import pl.com.progrex88.sfgpetclinic.model.Vet;
 import pl.com.progrex88.sfgpetclinic.services.OwnerService;
 import pl.com.progrex88.sfgpetclinic.services.VetService;
-import pl.com.progrex88.sfgpetclinic.services.map.OwnerServiceMap;
-import pl.com.progrex88.sfgpetclinic.services.map.VetServiceMap;
 
 @Component
 public class DataLoader implements CommandLineRunner {
@@ -15,10 +13,10 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private  final VetService vetService;
 
-    public DataLoader() {
 
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override

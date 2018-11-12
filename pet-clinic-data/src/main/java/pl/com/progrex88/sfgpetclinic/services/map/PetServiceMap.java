@@ -1,11 +1,12 @@
 package pl.com.progrex88.sfgpetclinic.services.map;
 
 
+import org.springframework.stereotype.Service;
 import pl.com.progrex88.sfgpetclinic.model.Pet;
 import pl.com.progrex88.sfgpetclinic.services.PetService;
 
 import java.util.Set;
-
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
